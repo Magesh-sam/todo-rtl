@@ -1,0 +1,17 @@
+li{
+    display: flex;
+    width: 400px;
+    min-width: 300px;
+    gap: 30px;
+    padding: 2%;
+    border: 1px solid black;
+    justify-content: space-between;
+    font-size: large;
+
+    >p {
+        flex: 1;
+    }
+    > button{
+        padding: 10px 20px;
+    }
+}
